@@ -1,0 +1,54 @@
+﻿@model Biblioteca_PasosManuel.Models.Domain.Usuario
+
+
+<div v class="container-fluid mt-4">
+    <div class="offset-12">
+        <div class="card border">
+            <div class="card-header bg-dark">
+                <h1 class="text-white"><strong>Crear usuario</strong></h1>
+            </div>
+
+            <div class="card-body">
+                <form asp-action="Crear" method="post">
+
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" class="form-control" placeholder="Ingresa el nombre" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Apellido" class="control-label"></label>
+                        <input asp-for="Apellido" class="form-control" placeholder="Ingresa tu apellido" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="UserName" class="control-label"></label>
+                        <input asp-for="UserName" class="form-control" placeholder="Ingresa el usuario" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" placeholder="Ingresa la contraseña" required />
+                    </div>
+
+                    @*     <div class="form-group">
+                    <label class="control-label"> Rol</label>
+                    <select asp-for="FkRol" asp-items="ViewBag.Roles" class="select2-placeholder-multiple form-control">
+                    <option value="">-- Selecciona --</option>
+                    </select>
+                    </div>*@
+
+                    <div class="form-group mt-3">
+                        <button type="submit" class="btn btn-secondary d-block mx-auto"><i class="bi bi-person-fill"></i> Guardar</button>
+                    </div>
+
+                </form>
+                <a asp-controller="Usuarios" asp-action="Index">Volver</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

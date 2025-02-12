@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca-PasosManuel", "Biblioteca-PasosManuel\Biblioteca-PasosManuel.csproj", "{D11CA4F1-E774-4C1A-B9CC-1B238209C384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D11CA4F1-E774-4C1A-B9CC-1B238209C384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11CA4F1-E774-4C1A-B9CC-1B238209C384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11CA4F1-E774-4C1A-B9CC-1B238209C384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11CA4F1-E774-4C1A-B9CC-1B238209C384}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {138EEF88-93EB-4215-8DC9-F45CA8E8A841}
+	EndGlobalSection
+EndGlobal
